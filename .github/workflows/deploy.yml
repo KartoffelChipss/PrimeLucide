@@ -35,7 +35,7 @@ jobs:
       - name: Get lucide version
         id: lucide_version
         run: |
-          VERSION=$(pnpm view simple version)
+          VERSION=$(pnpm view lucide-static version)
           echo "version=$VERSION"
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
