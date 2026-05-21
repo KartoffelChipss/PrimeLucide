@@ -70,7 +70,7 @@ jobs:
 
           mkdir -p staging/org/strassburger/prime-lucide/$VERSION
 
-          cp out/PrimeLucide.jar \
+          cp out/prime-lucide.jar \
             staging/org/strassburger/prime-lucide/$VERSION/prime-lucide-$VERSION.jar
 
           cat > staging/org/strassburger/prime-lucide/$VERSION/prime-lucide-$VERSION.pom <<EOF
