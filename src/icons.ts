@@ -11,7 +11,7 @@ export function getAllIcons(): LucideIcon[] {
         .filter(([, value]) => typeof value === 'string' && value.trimStart().startsWith('<svg'))
         .map(([key, value]) => ({
             name: key,
-            slug: key.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(),
+            slug: key.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase(),
             svg: value as string,
         }));
 }
