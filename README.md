@@ -1,5 +1,7 @@
 # PrimeLucide
 
+[![Maven](https://maven.strassburger.org/api/badge/org.strassburger/prime-lucide)](https://maven.strassburger.org/browse/releases/org/strassburger/prime-lucide)
+
 PrimeLucide is a lightweight library that simplifies the use of icons from [Lucide](https://lucide.dev/) in PrimeFaces applications. It provides ready-to-use CSS classes for each icon and packages all required assets in a JAR that can be easily added to your project.
 
 > **Disclaimer**: PrimeLucide is an independent project and is not affiliated with, endorsed by, or sponsored by PrimeFaces or PrimeTek.
